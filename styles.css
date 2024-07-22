@@ -1,0 +1,89 @@
+/*area de encabezado*/
+body{background-color: black;}
+
+.eachArticle{
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: white;
+    padding-top: 10px;
+}
+.article{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.article-one{    
+   
+}
+.fa-ellipsis-vertical{
+    position: absolute;
+    right: 10px;
+}
+.fa-html5{
+    margin-right: 10px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.minititle{
+    font-weight: 900;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.name{
+    margin-top: 0;
+    padding: 0;
+}
+
+.iconHeader{
+   font-size: 20px;
+}
+
+/*area de footer*/
+
+.footer{
+    position:relative;
+    margin:auto;
+    padding: 1px;
+}
+.footer-icons{
+    display: flex;
+    margin:auto
+}
+.fa-bookmark{
+    position:absolute;
+    right: 0;
+}
+p{
+    margin: 0px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.firstText{
+    margin-bottom: 10px;
+}
+
+/*padding header y footer*/
+
+.post-header,.footer{
+    margin-right: 10px;
+    margin-left:10px;
+}
+.spaced{
+    justify-content: space-between;
+}
+.spaced>i{
+    font-size: 20px;
+}
+.footer-icons{
+    font-size: 20px;
+}
